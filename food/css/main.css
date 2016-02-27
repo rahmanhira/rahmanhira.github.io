@@ -1,0 +1,23 @@
+/* CSS Document */
+body {
+
+font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+}
+
+h1{
+
+
+text-align: center;
+border-bottom: 1px solid #330405;
+font-size:xx-large;
+
+}
+
+#one {
+	font-style:oblique;
+}
+
+#two {
+}
+

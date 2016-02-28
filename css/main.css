@@ -1,0 +1,23 @@
+/* CSS Document */
+body {
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+
+h1 {
+	text-align: center;
+	border-bottom: 1px solid #4FAF6E;
+	}
+	
+#one {
+	font-size: 24px;
+	}
+	
+.bluebg {
+	color: blue;
+	background-color: navy;
+	}
+
+#first {
+	font-size: 72px;
+	}	
+

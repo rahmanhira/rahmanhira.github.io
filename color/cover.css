@@ -9,7 +9,7 @@ body {
 	left: 25%;
 	width: 50%;
 	text-align: center;
-	border: 1px solid white;
+	border: 1px solid red;
 }
 
 
@@ -26,6 +26,6 @@ a:hover {
 
 a:active {
 	color: red;
-	text-decoration: underline;
+	text-decoration:inherit;
 }
 

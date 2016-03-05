@@ -1,7 +1,9 @@
 /* CSS Document */
 
 
-#one {margin: 100px} 
+#one {
+	margin: 100px;
+	} 
 
    #2 {padding: 0}
     border: 0;

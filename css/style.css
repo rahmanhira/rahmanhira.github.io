@@ -1,0 +1,81 @@
+ nav {  
+      height: 40px;  
+      width: 100%;  
+      background:#32B10D;  
+      font-size: 11pt;  
+      font-family: Arial, sans-serif;  
+      font-weight: bold;  
+      position: relative;
+	  z-index: 50;  
+  }  
+
+    nav ul {  
+        display: none;  
+        height: auto;
+		background:#32B10D;
+		border-top: 1px solid #666;
+		border-bottom-width:thick;   
+    }  
+
+    nav li {
+        display: block;
+        float: none;
+		background: #F00307; 
+    }
+	
+	/* remove the RGS default margins on the nav only*/
+	nav .col {
+		margin: 0;
+		}
+	
+	 nav li a {
+		padding-left: 20px; 
+        border-bottom: 1px solid #666;
+		background: #2DCF26; 
+	
+    }
+
+    nav a#pull {  
+        display: block;  
+        background-color: #32B10D; 
+        width: 100%;  
+        position: relative;  
+    } 
+	
+	/*add the fontawesome menu icon using CSS content property */ 
+    nav a#pull:after {  
+        content: "\f0c9";
+        font-family: FontAwesome;
+        width: 64px;  
+        height: 64px;  
+        display: inline-block;  
+        position: absolute;  
+        left: 20px;  
+        top: 0px;  
+    } 
+
+nav a {  
+  color:none; 
+  display: block;  
+  width: 100%;  
+  text-align: left;  
+  text-decoration: blink;  
+  line-height: 40px;  
+  text-shadow: 1px 1px 0px #000;
+}
+
+nav li a {  
+    box-sizing:border-box;  
+    -moz-box-sizing:border-box;  
+    -webkit-box-sizing:border-box;  
+}  
+
+nav a:hover, nav a:active {  
+    background-color: #5AB3E4;  
+}
+
+
+div {
+	background: #39ED31;
+	padding-bottom: 10px;
+}
